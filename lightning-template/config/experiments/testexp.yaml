@@ -1,0 +1,6 @@
+# @package _global_
+experiment :
+  uuid : ${now:%m%d_%H%M_testexp}
+
+loader : 
+  batch_size : 256

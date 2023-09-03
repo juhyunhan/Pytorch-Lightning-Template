@@ -1,0 +1,5 @@
+.hydra
+cifar*
+outputs*
+logs*
+__pycache__/

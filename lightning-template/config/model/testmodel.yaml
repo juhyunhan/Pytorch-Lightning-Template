@@ -1,0 +1,10 @@
+_target_: seg_det.models.testmodel.TestModel
+
+backbone:
+  _target_: seg_det.models.resnet.ResNet
+  layer : 18
+  pretrained : False
+
+head:
+  _target_: seg_det.models.head.Head
+
